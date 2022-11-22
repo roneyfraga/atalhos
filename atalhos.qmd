@@ -353,8 +353,9 @@ Obs.: `*` é a posição do cursor na sentença
 - `nvim ~/Downloads**<TAB>` ou
 - `nvim control t`
 - `control r` history
-- `cd **<TAB>`  chage directory
-- `alt c`       chage directory
+- `cd **<TAB>`  change directory
+- `alt c`       change directory
+- `z <dir-name><TAB>**<TAB>` z plugin + fzf to change directory
 - Options:
   - `ctrl-b` backward-kill-word
   - `ctrl-g` top
