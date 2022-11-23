@@ -97,6 +97,7 @@ __Noun__
 - `;.` file here
 - `;h` file home
 - `;w` file ~/Wiki
+- `;s` file ~/Sync
 - `;b` buffers
 - `;l` lines
 - `;L` LinesB
@@ -345,7 +346,7 @@ Obs.: `*` é a posição do cursor na sentença
 - `super ; r` (resize) "Normal:Resize: [hjkl|HJKL]"
 - `super ; m` (move) "Normal:Resize: [hjkl|HJKL]"
 
-\vspace{46ex}
+\vspace{1ex}
 ## Fuzzy Finder in Terminal
 
 - `zahtura **<TAB>`
@@ -372,3 +373,49 @@ Obs.: `*` é a posição do cursor na sentença
   - `ctrl-z` deselect-all
   - `tab:toggle` select and down
   - `shift-tab` select and up
+
+\vspace{1ex}
+## Firefox Vixen
+
+- Console
+   - `:` open the console
+   - `o, t, w`: open a page in the current tab, a new tab, or new window
+   - `O, T, W`: similar to o, t, w, but using the current URL
+   - `b`: as buffers, select tabs by URL or title
+   - `a`: add the current page to your bookmarks
+
+- Select and manage tabs
+  - `d`: delete the current tab and select the tab to its right
+  - `u`: reopen a closed tab
+  - `r`: reload the current tab
+  - `R`: reload the current tab, bypassing the cache
+  - `K or gT`: select the previous tab
+  - `J or gt`: select the next tab
+  - `g0`: select the first tab
+  - `g$`: select the last tab
+  - `Ctrl+6`: open the previously-selected tab
+  - `zp`: pin the curent tab tab
+  - `zd`: duplicate the current tab
+
+- Zoom
+  - `zi`: zoom in
+  - `zo`: zoom out
+  - `zz`: zoom neutral (reset)
+
+- Navigation
+  - `f`: follow links in the page in the current tab
+  - `F`: follow links in the page in a new tab
+  - `H`: go back in history
+  - `L` : go forward in history
+  - `[[, ]]`: find a link to the previous/next page and open it
+  - `gu`: go to the parent directory
+  - `gU`: go to the root directory
+
+- Misc
+  - `y`: copy the URL of the current tab to the clipboard
+  - `p`: open the clipboard’s URL in the current tab
+  - `P`: open the clipboard’s URL in new tab
+  - `Shift+Esc`: enable or disable the add-on in the current tab
+  - `/`: start searching for text in the page
+  - `gf`: view the source of the current tab
+
