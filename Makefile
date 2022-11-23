@@ -5,7 +5,7 @@ qr:
 
 all:
 	quarto render $(file).qmd 
-	rsync -avzhe "ssh -i ~/.chave/chave_limpa" --info=progress2 $(file).pdf bibr@159.89.36.185:/var/www/roneyfraga.com/public_html/volume/
+	rsync -avzhe "ssh -i ~/.chave/chave_limpa" --info=progress2 --delete $(file).pdf bibr@159.89.36.185:/var/www/roneyfraga.com/public_html/volume/
 
 qp:
 	quarto preview $(file).qmd
