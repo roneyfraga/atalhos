@@ -378,6 +378,7 @@ Obs.: `*` é a posição do cursor na sentença
 ## Vimium
 
 - Commands:
+    - `?` show help
     - `gg` scroll to top of the page
     - `G` scroll to bottom of the page
     - `d` scroll down half a page
